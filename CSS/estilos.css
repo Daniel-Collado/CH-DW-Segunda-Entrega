@@ -1,0 +1,167 @@
+
+/*Global*/
+
+
+/*HEADER*/
+
+.logoTamano  {
+    height: 10vh;
+}
+
+.navbar  {
+    background-color: #003637;
+}
+
+.colorLetraNavbar  {
+    color: #f3a183;
+}
+
+.header-volver  {
+    width: 100vw;
+    height: 10vh;
+    background-color: #003637;
+    
+}
+
+.header-volver a  {
+    text-decoration: none;
+    color: #f3a183;
+}
+
+/*BODY*/
+
+.carousel-container  {
+    max-width: 50vh;
+}
+
+#carouselExampleIndicators{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: #f2a18610;
+}
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(108%);
+  }
+/*.carousel-item{
+    width: 100%;
+    height: 400px;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #000;
+}
+
+/*Paginas/Quienes Somos*/
+
+
+
+.quienesSomos  {
+    background-color: #f3a18320;
+}
+
+/*Paginas/Productos*/
+
+.productos  {
+    background-color: #f3a18320;
+}
+
+.card  {
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+
+
+.macetas, .setBaño, .setPosavasos, .terrazo, .banquitos, .portaVelas   {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+    margin:0;
+}
+
+
+#Macetas .estilos  {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    margin:0;
+}
+
+#SetdePosavasos .estilos  {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    margin:0;
+}
+
+#SetDeBaño .estilos  {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    margin:0;
+}
+
+#Terrazo .estilos  {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    margin:0;
+}
+
+#BanquitosDeHormigon .estilos  {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    margin:0;
+}
+
+#PortaVelas .estilos  {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    margin:0;
+}
+
+/*Paginas/Ferias*/
+
+/*Paginas/Contacto*/
+
+.estilosMapa  {
+    display: flex;
+    justify-content: right;
+}
+
+
+
+
+/*FOOTER*/
+
+.estilosFooter  {
+    background-color: #f3a18340;
+}
+
+.contenedorFooter  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logoFooter  {
+    height: 20vh;
+}
+
+.logoPagos  {
+    height: 5vh;
+}

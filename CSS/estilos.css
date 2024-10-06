@@ -136,7 +136,13 @@
 
 /*Paginas/Ferias*/
 
+
 /*Paginas/Contacto*/
+
+#contacto  {
+    min-height: 70vh;
+}
+
 
 .estilosMapa  {
     display: flex;
@@ -169,6 +175,9 @@
     }
     .logoFooter{
         height: 30px;
+    }
+    .ferias__foto3{
+        padding-bottom: 1rem;
     }
 }
 

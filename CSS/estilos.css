@@ -158,10 +158,38 @@
     align-items: center;
 }
 
-.logoFooter  {
-    height: 20vh;
-}
-
 .logoPagos  {
     height: 5vh;
 }
+
+@media (min-width: 350px) and (max-width: 767px) {
+    .iconoRedes{
+        font-size: 16px;
+        color: #818e64;
+    }
+    .logoFooter{
+        height: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .iconoRedes{
+        font-size: 26px;
+        color: #818e64;
+    }
+    .logoFooter{
+        height: 45px;
+    }
+}
+
+@media (min-width: 992px) {
+    .iconoRedes{
+        font-size: 36px;
+        color: #818e64;
+    }
+    .logoFooter{
+        height: 60px;
+    }
+}
+
+
